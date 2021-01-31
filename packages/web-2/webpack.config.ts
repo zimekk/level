@@ -11,9 +11,9 @@ const { ModuleFederationPlugin } = webpack.container;
 
 const config: webpack.Configuration = {
   devServer: {
-    port: 8080,
+    port: 8081,
   },
-  entry: require.resolve("./src/entry"),
+  entry: require.resolve("./src"),
   module: {
     rules: [
       {
@@ -35,10 +35,14 @@ const config: webpack.Configuration = {
   plugins: [
     new webpack.EnvironmentPlugin(["NODE_ENV"]),
     new ModuleFederationPlugin({
+      name: "web",
+      exposes: {
+        ".": "./src",
+        // "./App": "./src/App",
+      },
       remotes: {
-        "@zimekk/web-2": dev ? "web@//localhost:8081/web.js" : "web@web/web.js",
-        // "@zimekk/components-2": dev
-        //   ? "components@//localhost:8082/components.js"
+        // "@mofed/components": dev
+        //   ? "components@//localhost:8085/components.js"
         //   : "components@components/components.js",
       },
       shared: ["react"],

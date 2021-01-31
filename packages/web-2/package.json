@@ -1,8 +1,19 @@
 {
-  "name": "@dev/web",
-  "version": "1.1.4",
-  "license": "UNLICENSED",
-  "private": true,
+  "name": "@zimekk/web-2",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zimekk/level.git",
+    "directory": "packages/components"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "webpack --mode production",
     "serve": "serve -l 8080 public",
@@ -10,7 +21,6 @@
   },
   "dependencies": {
     "@zimekk/components-2": "^0.0.3",
-    "@zimekk/web-2": "^0.0.0",
     "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
