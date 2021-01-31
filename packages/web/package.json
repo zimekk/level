@@ -9,7 +9,7 @@
     "start": "webpack serve --mode development"
   },
   "dependencies": {
-    "@dev/components": "1.0.0",
+    "@zimekk/components-2": "^0.0.0",
     "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

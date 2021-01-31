@@ -1,11 +1,16 @@
 {
-  "name": "@dev/components",
-  "version": "1.0.0",
-  "main": "lib",
+  "name": "@zimekk/components-2",
+  "version": "0.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zimekk/level.git",
+    "directory": "packages/components"
+  },
   "publishConfig": {
     "access": "public"
   },
+  "main": "lib",
   "files": [
     "lib"
   ],

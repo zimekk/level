@@ -16,10 +16,12 @@
   },
   "lint-staged": {},
   "scripts": {
+    "bootstrap": "npx lerna bootstrap",
     "clean": "rm -rf packages/*/public packages/*/lib",
     "build": "yarn workspaces run build",
     "serve": "yarn workspace @dev/app serve",
     "start": "yarn workspace @dev/app start",
+    "publish:ci": "lerna publish from-package --yes",
     "update": "yarn upgrade-interactive --latest"
   },
   "workspaces": [

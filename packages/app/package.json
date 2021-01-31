@@ -1,11 +1,9 @@
 {
   "name": "@dev/app",
   "version": "1.0.0",
-  "main": "lib",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
+  "main": "lib",
   "files": [
     "lib"
   ],

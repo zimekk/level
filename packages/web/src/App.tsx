@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import history from "history/browser";
-import { Button } from "@dev/components";
+import { Button } from "@zimekk/components-2";
 
 const getPage = (location: { hash: string }) => {
   const [path, hash = "/"] = decodeURI(location.hash).match(/^#(.+)/) || [];
