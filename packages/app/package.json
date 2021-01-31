@@ -1,6 +1,6 @@
 {
   "name": "@dev/app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "private": true,
   "main": "lib",
@@ -13,7 +13,7 @@
     "start": "nodemon lib.ts"
   },
   "dependencies": {
-    "@dev/web": "^1.1.1",
+    "@dev/web": "^1.1.2",
     "express": "^4.17.1",
     "morgan": "^1.10.0"
   },
