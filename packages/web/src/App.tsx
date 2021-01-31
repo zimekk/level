@@ -28,6 +28,7 @@ export default () => {
         >
           {counter}
         </Button>
+        <Button>Button</Button>
       </nav>
     </section>
   );
