@@ -5,4 +5,8 @@ export const Button = ({
   ...props
 }: {
   children: React.ReactNode;
-}) => <button {...props}>{children}</button>;
+}) => (
+  <button style={{ color: "red" }} {...props}>
+    {children}
+  </button>
+);
