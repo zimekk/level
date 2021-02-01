@@ -7,9 +7,6 @@
     "url": "git@github.com:zimekk/level.git",
     "directory": "packages/components"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "lib",
   "files": [
     "lib"
