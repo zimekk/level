@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/zimekk/level/compare/@dev/web@1.1.4...@dev/web@1.2.0) (2021-02-01)
+
+### Features
+
+- **web-2:** add package web-2 ([56e28fb](https://github.com/zimekk/level/commit/56e28fb2d61bf2f9a3ac8f6b92d9f142992e9f2e))
+
 ## [1.1.4](https://github.com/zimekk/level/compare/@dev/web@1.1.3...@dev/web@1.1.4) (2021-01-31)
 
 **Note:** Version bump only for package @dev/web
